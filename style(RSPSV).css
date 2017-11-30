@@ -1,0 +1,317 @@
+body{
+	margin: 0 auto;
+	padding: 0;
+	background: #e3e3e3;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 20px;
+}
+
+
+
+nav{
+	width: 100%;
+	height: 90px;
+	background: #ffffff;
+	margin: 0 auto;	
+	display: inline-block;
+	box-shadow: 0 0 3px #222;
+	overflow: hidden;
+}
+
+.nameBox{
+	width: 250px;
+	height: 90px;
+	position: fixed;
+	background: #149a85;
+	color: #eee;
+	font-size: 25px;
+	display: inline-block;
+	float: left;
+	line-height: 90px;
+	text-align: center;
+	display: block;
+}
+
+nav li {
+	display: inline-block;
+	width: 90px;
+	height: 90px;
+	padding: 0;
+	margin: 0 auto;
+	float: right;
+	line-height: 50px;	
+	text-align: center;
+	color: #b4b4b4;
+	font-size: 18px;
+}
+
+.nameBox a{
+		text-decoration: none;
+	color: #fff;
+}
+
+a{
+		text-decoration: none;
+	color: #a7a7a7;
+}
+ul li:after { 
+	content: "|"; 
+	padding: 0 .5em;
+	color: #a8a8a8;
+}
+
+ul li:first-child:after {
+	content: ""; 
+	padding: 0; 
+	color: #a8a8a8;
+}
+
+.sectMain{
+	width: 960px;
+	height: 600px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#SectNav{
+	margin: 0 auto;
+	width: 960px;
+	height: 90px;
+	overflow: hidden;
+}
+
+#sect2main{
+	width: 650px;
+	height: 500px;
+	line-height: 100px;
+	float: left;
+	margin: 50px 0 0 3px;
+	color: #149a85;
+	background: #ffffff;
+	font-size: 30px;
+	box-shadow: .15px .15px .15px .15px #5d5d5d;
+	text-indent: 30px;
+	overflow: hidden;
+}
+
+#sect2main hr { 
+    display: block;
+    margin-top: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 1px;
+	width: 600px;
+	border-style: solid;
+	border-color: #dbdbdb;
+}
+
+img{
+	margin: 0 0 20px 0;
+	display: inline-block;
+	float: left;
+	padding-right:30px;
+}
+
+p{
+	font-size: 18px;
+	color: red;
+	line-height: 37px;
+	float: right;
+	display: inline-block;
+	margin: 20px 25px 25px 20px;
+	text-indent: 0;
+	color: grey;
+	
+}
+aside{
+	width: 270px;
+	height: 200px;
+	margin: 50px 0 0 0;
+	float: right;
+	background: #fff;
+	box-shadow: .15px .15px .15px .15px #5d5d5d;
+	text-align: center;
+	line-height: 70px;
+	color: #149a85;
+}
+
+aside hr{
+	width: 220px;
+	border-style: solid;
+	border-color: #dbdbdb;
+	border-width: .5px;
+}
+
+.sm_Box{
+	width: 65px;
+	height: 65px;
+	display: inline-block;
+	background: green;
+	margin: 0 auto;
+}
+
+#box1{
+	background: #000;
+}
+#box2{
+	background: #004cf8;
+}
+#box3{
+	background: #f4b200;
+}
+
+footer{
+	width: 100%;
+	height: 90px;
+	background: #585858;
+	border-top: 8px solid #149a85;
+	color: #9f9f9f;
+	text-align: center;
+	line-height: 90px;
+	font-size: 12px;
+	position: fixed;
+	bottom: 0;
+}
+
+@media (max-width:400px){
+	
+	nav{
+	width: 100%;
+	height: 50px;
+	background: #ffffff;
+	margin: 0 auto;	
+	display: inline-block;
+	box-shadow: 0 0 3px #222;
+	overflow: hidden;
+}
+	
+	nav li {
+	display: inline;
+	width: 90px;
+	height: 50px;
+	padding: 0;
+	margin-top: 0px;
+	float: right;
+	line-height: 15px;	
+	text-align: center;
+	color: #b4b4b4;
+	font-size: 15px;
+}
+
+
+.nameBox{
+	width: 120px;
+	height: 50px;
+	background: #149a85;
+	color: #eee;
+	font-size: 15px;
+	display: inline-block;
+	float: left;
+	line-height: 50px;
+	text-align: center;
+	margin: 0 auto;
+}
+	
+	.sectMain{
+	width: 300px;
+	height: 600px;
+	margin: 0 auto;
+	padding: 0px;
+}
+	
+	#sect2main{
+	width: 300px;
+	height: 500px;
+	line-height: 40px;
+	margin: 20px auto;
+	color: #149a85;
+	background: #ffffff;
+	font-size: 20px;
+	box-shadow: .15px .15px .15px .15px #5d5d5d;
+	overflow: hidden;
+	text-align: center;
+}
+
+#sect2main hr { 
+    display: block;
+    margin: 0 auto;
+    border-width: 1px;
+	width: 280px;
+	border-style: solid;
+	border-color: #dbdbdb;
+}
+	
+	#SectNav{
+	margin: 0 auto;
+	width: 100%;
+	height: 50px;
+	overflow: hidden;
+}
+	img{
+	margin: 0 auto;
+	display: inline-block;
+	width: 200px;
+	height: 100px;
+}
+
+#sect2main p{
+	font-size: 15px;
+	color: red;
+	line-height: 20px;
+	float: right;
+	display: inline-block;
+	margin: 10px 10px 25px 20px;
+	text-indent: 0;
+	color: grey;
+	padding: 20px;
+	text-align: left;
+	
+}
+	
+	aside{
+	width: 300px;
+	height: 150px;
+	margin: 0 auto;
+	background: #fff;
+	box-shadow: .15px .15px .15px .15px #5d5d5d;
+	text-align: center;
+	line-height: 50px;
+	color: #149a85;
+		overflow: hidden;
+}
+	
+	aside hr{
+	width: 220px;
+	border-style: solid;
+	border-color: #dbdbdb;
+	border-width: .5px;
+}
+	
+	.sm_Box{
+	width: 65px;
+	height: 65px;
+	display: inline-block;
+	background: green;
+	margin: 0 auto;
+}
+	
+	footer{
+	width: 100%;
+	height: 50px;
+	background: #585858;
+	border-top: 8px solid #149a85;
+	color: #9f9f9f;
+	text-align: center;
+	line-height: 50px;
+	font-size: 12px;
+	position: fixed;
+	bottom: 0;
+}
+	
+	
+	
+	
+	
+	
+	
+}
